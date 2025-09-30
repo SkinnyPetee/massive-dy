@@ -1,3 +1,4 @@
+"use client";
 import { PulsingBorder } from "@paper-design/shaders-react";
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any

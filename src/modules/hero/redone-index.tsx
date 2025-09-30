@@ -37,7 +37,7 @@ const Hero = () => {
           </div>
 
           <div className="flex flex-col  items-center w-full h-max gap-4 lg:max-w-[50%] lg:h-screen lg:justify-center">
-            <div className="flex gap-2 w-max px-3 py-1 rounded-full border border-purple-500/30 bg-purple-500/10 text-purple-300 text-sm">
+            <div className="z-100 flex gap-2 w-max px-3 py-1 rounded-full border border-purple-500/30 bg-purple-500/10 text-purple-300 text-sm">
               <Sparkles className="w-4 h-4" />
               Remote Viewing Movement
             </div>
