@@ -1,5 +1,5 @@
 import PulsingBorderShader from "@/components/pulsing-border-shader";
-import { ArrowRight, Sparkles } from "lucide-react";
+import { Sparkles } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -8,9 +8,9 @@ const Hero = () => {
         {/* Background gradient */}
         <div className="absolute inset-0 bg-gradient-to-br from-purple-900/20 via-black to-blue-900/20" />
 
-        <div className="flex flex-col-reverse py-30 ">
+        <div className="flex flex-col-reverse lg:py-0 py-30 lg:flex-row-reverse lg:justify-between ">
           {/* graphic section */}
-          <div className="flex justify-center lg:justify-end">
+          <div className="flex justify-center items-center w-full lg:w-[50%]">
             <div className="relative">
               {/* Glow effect behind the shader */}
               <div className="absolute inset-0 bg-gradient-to-r from-purple-500/20 to-blue-500/20 blur-3xl scale-110" />
@@ -36,7 +36,7 @@ const Hero = () => {
             </div>
           </div>
 
-          <div className="flex flex-col items-center w-full h-max gap-4">
+          <div className="flex flex-col  items-center w-full h-max gap-4 lg:max-w-[50%] lg:h-screen lg:justify-center">
             <div className="flex gap-2 w-max px-3 py-1 rounded-full border border-purple-500/30 bg-purple-500/10 text-purple-300 text-sm">
               <Sparkles className="w-4 h-4" />
               Remote Viewing Movement

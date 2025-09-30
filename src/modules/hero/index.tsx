@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import PulsingBorderShader from "@/components/pulsing-border-shader";
 import { ArrowRight, Sparkles } from "lucide-react";
 
-export default function Hero() {
+export default function HeroSection() {
   return (
     <div className="min-h-screen bg-black text-white overflow-hidden">
       {/* Background gradient */}
