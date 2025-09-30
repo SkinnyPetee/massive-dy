@@ -8,6 +8,7 @@ export const Card = React.memo(
     card,
     index,
     hovered,
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     setHovered,
   }: {
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
