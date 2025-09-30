@@ -4,7 +4,10 @@ import { Sparkles } from "lucide-react";
 const Hero = () => {
   return (
     <>
-      <section className="relative min-h-screen bg-black text-white overflow-hidden">
+      <section
+        className="relative min-h-screen bg-black text-white overflow-hidden"
+        id="hero"
+      >
         {/* Background gradient */}
         <div className="absolute inset-0 bg-gradient-to-br from-purple-900/20 via-black to-blue-900/20" />
 

@@ -1,6 +1,11 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import localFont from "next/font/local";
+
+export const xSpaceFont = localFont({
+  src: "./fonts/xspace.ttf",
+});
 
 const geistSans = Geist({
   variable: "--font-geist-sans",

@@ -6,7 +6,10 @@ import { Badge } from "@/components/ui/badge";
 
 export default function ContactSection() {
   return (
-    <section className="w-full min-h-screen lg:py-30 lg:flex flex-row relative">
+    <section
+      className="w-full min-h-screen lg:py-30 lg:flex flex-row relative"
+      id="contact"
+    >
       <div className="w-full min-h-screen flex flex-col z-99">
         <div className="flex flex-col w-full h-max gap-3 items-center z-99">
           <Badge>Get in Touch</Badge>

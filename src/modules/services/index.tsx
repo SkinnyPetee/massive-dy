@@ -4,7 +4,10 @@ import { ServiceCards } from "./service-card";
 const Services = () => {
   return (
     <>
-      <section className="w-full min-h-screen py-12 lg:py-30 bg-slate-500/2">
+      <section
+        className="w-full min-h-screen py-12 lg:py-30 bg-slate-500/2"
+        id="services"
+      >
         <div className="flex flex-col w-full h-max gap-3 items-center">
           <Badge>What we do</Badge>
           <h1 className="text-4xl font-bold text-center">

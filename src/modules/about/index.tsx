@@ -3,7 +3,7 @@ import { Badge } from "@/components/ui/badge";
 const About = () => {
   return (
     <>
-      <section className="w-full min-h-screen py-12 lg:py-30">
+      <section className="w-full min-h-screen py-12 lg:py-30" id="founder">
         <div className="flex flex-col w-full h-max gap-3 items-center">
           <Badge>Meet the Founder</Badge>
           <h1 className="text-4xl font-bold">Kavan Ganapathy</h1>
