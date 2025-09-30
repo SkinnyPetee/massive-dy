@@ -17,8 +17,9 @@ export function ServiceCards() {
     {
       title: "Sala behta hi jayega",
       src: "https://images.unsplash.com/photo-1505142468610-359e7d316be0?q=80&w=3070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      heading: "Informed Healing Architectures with Numocore Principles",
-      desc: "The healing work at The Massive Dynamics emerged from a profound 2020 breakthrough experience where Kavan's physical form dissolved completely, leaving only pure consciousness—then seamlessly reconstructed. This DMT-mediated dissolution and reformation revealed the fundamental architecture of reality: consciousness creates matter, not the reverse. ",
+      heading:
+        "Informed Healing Architectures with add informational Healing principles Principles",
+      desc: "The healing work at The Massive Dynamics emerged from a profound 2020 breakthrough experience where Kavan's physical form dissolved completely, leaving only pure consciousness—then seamlessly reconstructed. This add plant medicine journeys-mediated dissolution and reformation revealed the fundamental architecture of reality: consciousness creates matter, not the reverse. ",
     },
     {
       title: "Camping is for pros",
