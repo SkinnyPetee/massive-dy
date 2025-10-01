@@ -9,7 +9,12 @@ const Hero = () => {
         id="hero"
       >
         {/* Background gradient */}
-        <div className="absolute inset-0 bg-gradient-to-br from-purple-900/20 via-black to-blue-900/20" />
+        {/* <div className="absolute inset-0 bg-gradient-to-br from-purple-900/20 via-black to-blue-900/20" /> */}
+        <img
+          src="/images/background/vtol.jpg"
+          alt="background image"
+          className="w-full h-full absolute inset-0 object-cover opacity-40"
+        />
 
         <div className="flex flex-col-reverse lg:py-0 py-30 lg:flex-row-reverse lg:justify-between ">
           {/* graphic section */}
