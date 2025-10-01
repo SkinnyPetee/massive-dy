@@ -30,20 +30,20 @@ const Navbar = () => {
           scrolled ? "backdrop-blur-lg bg-primary/80" : "bg-transparent"
         }`}
       >
-        <nav className="mx-auto flex items-center justify-between p-4">
+        <nav className="mx-auto flex items-center justify-between px-2 py-4">
           {/* Logo */}
           <div className="text-xl font-bold text-primary-foreground">
             <a href="#hero">
-              <div className="p-2 w-max h-max rounded-2xl flex  justify-center items-center">
+              <div className="w-max h-max rounded-2xl flex  justify-center items-center">
                 <img
-                  className="w-[80px] h-[40px] lg:w-[140px] lg:h-[70px] object-contain"
+                  className="w-[50px] h-[40px] lg:w-[140px] lg:h-[70px] object-contain"
                   src="/images/logo/logo.jpeg"
                   alt="logo of massive dynamics"
                 />
                 <h2
                   className={`${xSpaceFont.className} text-white text-sm lg:text-xl `}
                 >
-                  Massive Dynamics
+                  MASSIVE DYNAMICS
                 </h2>
               </div>
             </a>
@@ -90,7 +90,7 @@ const Navbar = () => {
 
       {/* Mobile Slide-in Menu */}
       <div
-        className={`backdrop-blur-lg bg-primary/80 border-b border-primary/20 fixed top-0 right-0 h-screen w-screen border-l transform ${
+        className={`z-999 backdrop-blur-lg bg-primary border-b border-primary/20 fixed top-0 right-0 h-screen w-screen border-l transform ${
           isOpen ? "translate-x-0" : "translate-x-full"
         } transition-transform duration-300 ease-in-out z-50`}
       >
