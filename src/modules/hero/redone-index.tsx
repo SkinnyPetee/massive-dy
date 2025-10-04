@@ -1,5 +1,4 @@
-import PulsingBorderShader from "@/components/pulsing-border-shader";
-import { Sparkles } from "lucide-react";
+import { xSpaceFont } from "@/app/fonts/xspace";
 
 const Hero = () => {
   return (
@@ -16,19 +15,18 @@ const Hero = () => {
           className="w-full h-full absolute inset-0 object-cover opacity-40"
         />
 
-        <div className="flex flex-col-reverse lg:py-0 py-30 lg:flex-row-reverse lg:justify-between ">
-          {/* graphic section */}
-          <div className="flex justify-center items-center w-full lg:w-[50%]">
+        <div className="relative flex flex-col-reverse h-[140vh]">
+          {/* <div className="flex justify-center items-center w-full lg:w-[50%]">
             <div className="relative">
-              {/* Glow effect behind the shader */}
+         
               <div className="absolute inset-0 bg-gradient-to-r from-purple-500/20 to-blue-500/20 blur-3xl scale-110" />
 
-              {/* Main shader component */}
+              
               <div className="relative">
                 <PulsingBorderShader />
               </div>
 
-              {/* Floating elements */}
+              
               <div
                 className="absolute -top-4 -right-4 w-3 h-3 bg-purple-400 rounded-full animate-bounce"
                 style={{ animationDelay: "0s" }}
@@ -42,15 +40,18 @@ const Hero = () => {
                 style={{ animationDelay: "2s" }}
               />
             </div>
-          </div>
+          </div> */}
 
-          <div className="flex flex-col  items-center w-full h-max gap-4 lg:max-w-[50%] lg:h-screen lg:justify-center">
-            <div className="z-100 flex gap-2 w-max px-3 py-1 rounded-full border border-purple-500/30 bg-purple-500/10 text-purple-300 text-sm">
-              <Sparkles className="w-4 h-4" />
-              Remote Viewing Movement
-            </div>
+          <img
+            className="w-[200px] h-[180px] object-contain absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+            src="/images/logo/logo.jpeg"
+            alt="logo of massive dynamics"
+          />
 
-            <h1 className="z-100 text-5xl lg:text-7xl text-center font-bold tracking-tight leading-tight px-8">
+          <div className="flex flex-col absolute top-[80%] left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+            <h1
+              className={`${xSpaceFont.className} z-100 text-2xl lg:text-4xl text-center font-bold tracking-tight leading-tight px-8`}
+            >
               Transforming{" "}
               <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400 bg-clip-text text-transparent">
                 awareness

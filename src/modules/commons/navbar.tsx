@@ -43,7 +43,7 @@ const Navbar = () => {
                 <h2
                   className={`${xSpaceFont.className} text-white text-sm lg:text-xl `}
                 >
-                  MASSIVE DYNAMICS
+                  THE MASSIVE DYNAMICS
                 </h2>
               </div>
             </a>
