@@ -43,8 +43,8 @@ const Hero = () => {
           </div> */}
 
           <img
-            className="w-[200px] h-[180px] object-contain absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
-            src="/images/logo/logo.jpeg"
+            className="w-[300px] h-[300px] l object-contain absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+            src="/images/background/hero.jpeg"
             alt="logo of massive dynamics"
           />
 
@@ -52,15 +52,9 @@ const Hero = () => {
             <h1
               className={`${xSpaceFont.className} z-100 text-2xl lg:text-4xl text-center font-bold tracking-tight leading-tight px-8`}
             >
-              Transforming{" "}
-              <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400 bg-clip-text text-transparent">
-                awareness
-              </span>{" "}
-              into
+              Transforming <span className="">awareness</span> into
               <br />
-              <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400 bg-clip-text text-transparent">
-                architecture
-              </span>
+              <span className="">architecture</span>
             </h1>
           </div>
         </div>
